@@ -17,7 +17,7 @@ function reverseFactorial(number) {
     let reverseMultiple = 1;
     for (let i = number; i >= 1; i--) {
       reverseMultiple = reverseMultiple * i;
-      console.log(i);
+      console.log(i, reverseMultiple);
     }
   
     return reverseMultiple;
